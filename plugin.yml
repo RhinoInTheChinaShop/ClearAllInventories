@@ -5,6 +5,7 @@ version: 0.1
 commands:
   clearAllInventories:
     description: Clears the inventory of all players
+    aliases: [cia, clearallinv, clearall]
     usage: /<command>
     permission: clearAllInventories.clearAll
     permission-message: You don't have <permission>
